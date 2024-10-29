@@ -18,3 +18,26 @@ ul{
 a{
     text-decoration:none;
 }
+nav{
+    background-color:skyblue;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:1;
+}
+.toggleBtn{
+    font-size:1.5rem;
+    color:#ecf0f1;
+    background:transparent;
+    border-color:transparent;
+    border:none;
+    transition:all 0.3s linear;
+    cursor:pointer;
+}
+.toggleBtn:hover{
+    color:#e74c3c;
+    transform:rotate(90deg);
+}
